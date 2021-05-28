@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+* {
+    font-family: 'Mali', cursive;
+}
+
+.font-size-2rem {
+    font-size: 2.2rem;
+}
+
+.font-size-1-75rem {
+    font-size: 2rem;
+}
+
+.bg-lgray {
+    background-color: lightgray;
+}
+
+.font-color-white {
+    color: whitesmoke
+}

@@ -1,0 +1,95 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: whitesmoke;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+div {
+    box-sizing: border-box;
+    position: relative;
+    width: 30%;
+    border: 5px solid black;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    float: left;
+}
+
+div>p {
+    padding: 10px;
+    clear: both;
+}
+
+#div1>h3 {
+    background-color: maroon;
+    width: fit-content;
+    float: right;
+    color: whitesmoke;
+    padding: 5px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+
+#div2>h3 {
+    background-color: navy;
+    width: fit-content;
+    float: right;
+    color: whitesmoke;
+    padding: 5px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+
+#div3>h3 {
+    background-color: teal;
+    width: fit-content;
+    float: right;
+    color: whitesmoke;
+    padding: 5px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+
+/* (between 768px and 991px, inclusively) */
+@media (min-width: 768px) and (max-width : 991px) {
+    #div3 {
+        clear: both;
+        width: 90%;
+        margin: 5%;
+    }
+
+    #div1,
+    #div2 {
+        width: 40%;
+        margin: 5%;
+        margin-bottom: 2.5%;
+    }
+
+    #div2 {
+        margin-left: 5%;
+    }
+
+    #div1 {
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 765px) {
+    
+    #div1,
+    #div2,
+    #div3{
+        clear: both;
+        width: 80%;
+        margin: 10%;
+        margin-bottom:5%;
+    }
+}
